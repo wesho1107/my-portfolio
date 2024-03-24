@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TiltCard from "@/components/TiltCard";
+import SidePopCards from "@/components/SidePopCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,7 @@ export default function RootLayout({
       <body className="flex flex-col items-center justify-between w-full min-h-screen place-content-center bg-gradient-to-br from-pink-500 to-yellow-500 px-4 py-12 text-slate-900">
         <Navbar/>
         <main>
-        <TiltCard/>
+        <SidePopCards/>
         </main>
         <Footer/>
       </body>
