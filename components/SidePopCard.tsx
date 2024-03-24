@@ -7,7 +7,7 @@ const SidePopCard = () => {
     const [isHovered, setHovered] = useState(false);
     const [scope, animate] = useAnimate();
 
-    const DURATION = 0.3;
+    const DURATION = 0.4;
 
     useEffect(() => {
         if (isHovered) {
